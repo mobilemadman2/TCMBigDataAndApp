@@ -1,0 +1,34 @@
+
+/*there is no content when it is init.*/
+
+#acupoint_pic{ 
+	border:0;
+	margin_left:10px;
+}
+
+#acu_image_pos{
+	margin_left:100px;
+}
+
+#hor_box>div{
+	display:inline-block;
+	
+}
+
+#acupoint_text{
+	vertical-align:top;
+}
+.jumbotron p{
+	font-size:60px;
+}
+.col-xs-2{
+	width:210px;
+}
+#table_info{
+	width:220px;
+}
+
+#acupoint_text{
+	position:relative;
+	left:10px;
+}

@@ -1,0 +1,64 @@
+.res-type {
+	margin:10px;
+	font-size: 16px;
+}
+
+.active {
+    border-bottom: 3px solid #b99f6d;
+    color: #6f5d44;
+}
+
+
+.row-space {
+    padding: 0px 25px;
+}
+
+.row-disable {
+	display:none;
+}
+
+.no-content{
+	color: #4f5360e6;
+	font-size: 200%;
+	padding-left: 50px;
+}
+
+.badge-style{
+	display: inline-block;
+	min-width: 10px;
+	padding: 3px 7px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	border-radius: 10px;
+}
+
+.disease-badge {
+	background-color: #dd7a3b;
+}
+
+.material-badge {
+	background-color: #41960d;
+}
+
+.expert-medicalcase-badge {
+	background-color: #be1ac9;
+}
+
+
+.prescription-badge {
+	background-color: #544fa7;
+}
+
+.syndrome-badge {
+	background-color: #00a5ff;
+}
+
+.expert-badge {
+	background-color: #e13833;
+}
+

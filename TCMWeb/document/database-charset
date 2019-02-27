@@ -1,0 +1,4 @@
+部分表需要使用中文进行排序，需要对字符集进行修改
+
+ALTER TABLE disease CHANGE overview overview TEXT character set gbk;
+ALTER TABLE disease CHANGE name name TEXT character set gbk;

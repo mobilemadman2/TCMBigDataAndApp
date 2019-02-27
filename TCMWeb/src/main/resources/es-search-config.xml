@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+	<search index="material">
+		<fields>
+			<field weight="7.0">name_cn</field>
+			<field weight="2.0">alias</field>
+			<field weight="1.0">description</field>
+			<field>attribution</field>
+			<field weight="1.0">effect</field>
+			<field>origin</field>
+		</fields>
+		<sources>
+			<source>id</source>
+			<source>name_cn</source>
+			<source>attribution</source>
+		</sources>
+	</search>
+	
+	<search index="prescription">
+		<fields>
+			<field weight="8.0">name</field>
+			<field weight="1.0">composition</field>
+			<field>process</field>
+			<field weight="1.0">function</field>
+		</fields>
+		<sources>
+			<source>id</source>
+			<source>name</source>
+			<source>composition</source>
+		</sources>
+	</search>
+	
+	<search index="disease">
+		<fields>
+			<field weight="10.0">name</field>
+			<field weight="5.0">alias</field>
+			<field weight="5.0">name_chn</field>
+			<field weight="2.5">overview</field>
+			<field weight="1.0">clma</field>
+			<field weight="1.0">didi</field>
+			<field weight="1.0">esdi</field>
+			<field weight="1.0">examination</field>
+		</fields>
+		<sources>
+			<source>id</source>
+			<source>name</source>
+			<source>overview</source>
+		</sources>
+	</search>
+	
+	
+	<search index="expert_medical_case">
+		<fields>
+			<field weight="15.0">doctor_name</field>
+			<field weight="3.0">case_title</field>
+			<field weight="0.5">tcm_diagnosis</field>
+			<field weight="0.5">wm_diagnosis</field>
+		</fields>
+		<sources>
+			<source>id</source>
+			<source>doctor_name</source>
+			<source>tcm_diagnosis</source>
+		</sources>
+	</search>
+	
+	<search index="bing_zheng_tab1">
+		<fields>
+			<field weight="6.0">name</field>
+			<field weight="3.0">general_description</field>
+			<field weight="1.5">search_alias</field>
+			<field weight="0.5">wm_diagnosis</field>
+		</fields>
+		<sources>
+			<source>id</source>
+			<source>name</source>
+			<source>general_description</source>
+		</sources>
+	</search>
+	
+	<search index="expert">
+		<fields>
+			<field weight="20.0">name</field>
+			<field weight="1.5">honor</field>
+			<field weight="1.5">position</field>
+		</fields>
+		<sources>
+			<source>id</source>
+			<source>name</source>
+			<source>honor</source>
+		</sources>
+	</search>
+	
+</configuration>

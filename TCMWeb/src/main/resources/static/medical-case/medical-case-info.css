@@ -1,0 +1,33 @@
+.v td:nth-child(1){
+	width:15%
+}
+.v td:nth-child(2){
+	width:55%
+}
+.v td:nth-child(3){
+	width:15%
+}
+
+.u td:nth-child(1){
+	width:17%
+}
+.u td:nth-child(2){
+	width:67.9%
+}
+.u td:nth-child(3){
+	width:20%
+}
+.blog-main{
+	width:90%
+}
+
+
+#showDetail td:nth-child(1){
+	width:5%
+}
+#showDetail td:nth-child(2){
+	width:10%
+}
+#showDetail td:nth-child(3){
+	width:15%
+}

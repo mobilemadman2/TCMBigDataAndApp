@@ -1,0 +1,46 @@
+ <!-- if('${material.description"); } showItemList.push("描述");
+
+if('${material.attribution}'!="") showItemList.push("性状");
+
+if(('${(material.composition)!}') !="") showItemList.push("主要成分");
+ if('${(material.pharmacologic)!}'!="") showItemList.push("药理作用");
+if('${(material.taste)!}'!="") showItemList.push("性味");
+if('${(material.channel)!}'!="") showItemList.push("归经");
+ if('${(material.effect)!}'!="") showItemList.push("功效");
+if('${(material.action)!}'!="") showItemList.push("主治");
+if('${(material.method)!}'!="") showItemList.push("用法用量");
+ if('${(material.taboo)!}'!="") showItemList.push("禁忌");
+if('${(material.virulence)!}'!="") showItemList.push("毒性");
+if('${(material.cultivation)!}'!="") showItemList.push("栽培要点");
+ if('${(material.origin)!}'!="") showItemList.push("地道沿革");
+if('${(material.recovery)!}'!="") showItemList.push("采收");
+if('${(material.process)!}'!="") showItemList.push("炮制");
+if('${(material.research)!}'!="") showItemList.push("古籍考证");
+if('${(material.discuss)!}'!="") showItemList.push("名家论述");
+if('${(material.excerpt)!}'!="") showItemList.push("摘录"); -->
+/*
+ var obj='${material}';
+ arrayObj.push('${material.description}');
+
+arrayObj.push('${material.attribution}');
+arrayObj.push('${material.composition}');
+ arrayObj.push('${material.pharmacologic}');
+arrayObj.push('${material.taste}');
+arrayObj.push('${material.channel}');
+ arrayObj.push('${material.effect}');
+arrayObj.push('${material.action}');
+arrayObj.push('${material.method}');
+ arrayObj.push('${material.taboo}');
+arrayObj.push('${material.virulence}');
+arrayObj.push('${material.cultivation}');
+ arrayObj.push('${material.origin}');
+arrayObj.push('${material.recovery}');
+arrayObj.push('${material.process}');
+arrayObj.push('${material.research}');
+arrayObj.push('${material.discuss}');
+arrayObj.push('${material.excerpt}');
+for(var i = 0,len=arrayObj.length;i<len;i++){
+    console.log(arrayObj[i])
+}
+
+*/

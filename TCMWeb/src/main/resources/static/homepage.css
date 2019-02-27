@@ -1,0 +1,65 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+
+div ul li a {
+	padding: 5px 5px 5px 5px;
+}
+
+.navbar-nav > li > a {
+	color: #F00;	
+	width: 80px;
+	padding:8px 2px 8px 8px;
+}
+
+.navbar-header > a {
+	padding-top: 25px
+}
+
+.navbar-right > li > a{
+	width:70px;
+}
+
+.search-box{
+	margin: 10px 10px 30px 10px;
+}
+
+.show_column-1{
+	width:15%
+}
+
+.show_column-2{
+	width:65%
+}
+
+.show_column-3{
+	width:10%
+}
+.show_column-4{
+	width:10%
+}
+
+
+.list-item{
+	width:126px;
+	display: inline-block;
+	margin:15px 10px 15px 10px;
+	
+}
+
+.list-margin{
+	margin:5px;
+}
+
+.index-image{
+	width:150px; 
+	height:100px;
+	margin-top:10px;
+}
+
+div .panel-body > div > a > span{
+	font-size:18px;
+}
